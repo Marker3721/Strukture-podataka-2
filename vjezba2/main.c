@@ -103,6 +103,7 @@ int main(){
                 break;
 
             case 0:
+				free(head);
                 break;
 
             default:
