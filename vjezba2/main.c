@@ -138,6 +138,7 @@ int printList(Person* Head){
             printf("%s %s %d\n", p->name, p->surname, p->year);
             p = p->next;
         }
+	free(p);
     return 0;
 }
 
